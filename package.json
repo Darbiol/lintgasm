@@ -1,0 +1,31 @@
+{
+  "name": "lintgasm",
+  "version": "1.0.0",
+  "description": "A library that takes a string as an input and lints the string based on the configuration passed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darbiol/lintgasm.git"
+  },
+  "keywords": [
+    "linting",
+    "library"
+  ],
+  "author": "Daniel Arbiol",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darbiol/lintgasm/issues"
+  },
+  "homepage": "https://github.com/Darbiol/lintgasm#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "bluebird": "^2.9.34",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "glob": "^5.0.14",
+    "joi": "^6.6.1"
+  }
+}
